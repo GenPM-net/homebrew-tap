@@ -2,7 +2,6 @@
 class Genpm < Formula
   desc "Install architectures, not dependencies: inject code, AI rules and MCP config"
   homepage "https://genpm.net"
-  version "0.1.3"
   license "MIT"
 
   on_macos do
