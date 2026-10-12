@@ -6,23 +6,23 @@ class Genpm < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/GenPM-net/genpm-releases/releases/download/v0.1.4/genpm-darwin-arm64"
-      sha256 "33147a66eb700001522ca435482cc50e958ac04237556b59a7560e0f3d24461d"
+      url "https://github.com/GenPM-net/genpm-releases/releases/download/v0.2.0/genpm-darwin-arm64"
+      sha256 "b602e3704af6f0176fdb4ef72658e4da1f7779456e766fc9cf1e77832a7157e5"
     end
     on_intel do
-      url "https://github.com/GenPM-net/genpm-releases/releases/download/v0.1.4/genpm-darwin-x64"
-      sha256 "543de61318228057e8d04a2ac113378cfdc8848dbce25aa3001c1cb20e834240"
+      url "https://github.com/GenPM-net/genpm-releases/releases/download/v0.2.0/genpm-darwin-x64"
+      sha256 "d253908bb7876eb7c24cac4081d9f89028939b1b45ce23f07b28ac903a194295"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/GenPM-net/genpm-releases/releases/download/v0.1.4/genpm-linux-arm64"
-      sha256 "cb1a500acb8707b89ee2c7cd1ec9dfadad06ca29db60ece8e1b878922517436a"
+      url "https://github.com/GenPM-net/genpm-releases/releases/download/v0.2.0/genpm-linux-arm64"
+      sha256 "032b1e603f1c2a647f2ee9661a337c52b24569d59d985b7b3b66bb099805b01f"
     end
     on_intel do
-      url "https://github.com/GenPM-net/genpm-releases/releases/download/v0.1.4/genpm-linux-x64"
-      sha256 "bc14155b669125cf0a17da2c09f812ebfad2b6ec0c08831d333d2c11e025d381"
+      url "https://github.com/GenPM-net/genpm-releases/releases/download/v0.2.0/genpm-linux-x64"
+      sha256 "e46fed3cc2cf80840ebc5d7eb923e000469b8285a5182a7dd3ece1ae1268d052"
     end
   end
 
